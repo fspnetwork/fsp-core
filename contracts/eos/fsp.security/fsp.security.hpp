@@ -34,8 +34,6 @@ namespace fsp {
 
     public:
 
-        /// Create, Issue and Transfer
-
         void create(
                 name issuer,
                 eosio::asset max_supply
@@ -54,8 +52,6 @@ namespace fsp {
                 string memo
         );
 
-        /// Validation
-
         bool validateCreation(name creator);
 
         bool validateIssue(name to);
@@ -65,8 +61,6 @@ namespace fsp {
                 name from,
                 name to
         );
-
-        /// Correspondence
 
         eosio::bytes getCorrespondance(
                 eosio::symbol_name sym,
@@ -78,8 +72,6 @@ namespace fsp {
                 string uri,
                 eosio::bytes doc_hash
                 );
-
-        /// Info functions
 
         inline eosio::asset get_supply(eosio::symbol_name sym) const;
 
