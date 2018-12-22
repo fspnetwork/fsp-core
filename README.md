@@ -31,4 +31,10 @@ The following diagram suggests the intended usage and relationship between modul
 
 ![alt text](http://funkyimg.com/i/2Ps3K.png)
 
+## FS2P
 
+Financial Securities Protocol Proposals (FS2P) are encouraged to be submitted in order to refine functionality of exisiting modules. Widely accepted proposals will be implemented. 
+
+## Contribution
+
+If you would like to contribute to the protocol, issue a PR.  
