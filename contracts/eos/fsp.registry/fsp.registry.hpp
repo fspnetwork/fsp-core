@@ -4,7 +4,7 @@
 
 
 namespace fsp {
-    using std::string;
+
     class registry : eosio::contract {
         struct entity {
            name account_name;
@@ -12,6 +12,8 @@ namespace fsp {
            eosio::bytes approval_hash;
         }
 
+        bool approve(name account_name, entity_type type);
+        
         bool is_registred(name account_name);
 
         bool is_approved(name account_name);
