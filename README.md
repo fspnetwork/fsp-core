@@ -29,7 +29,7 @@ Point of liquidity for instances of `fsp.security`. Provides a suit of exchange 
 
 The following diagram suggests the intended usage and relationship between modules:
 
-![alt text](http://funkyimg.com/i/2Ps3K.png)
+![alt text](http://funkyimg.com/i/2Py4S.png)
 
 ## FS2P
 
